@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "yourdockerhubusername/gitops-demo"
+        IMAGE_NAME = "l3shan/gitops-demo"
         BRANCH = "main" // make sure this matches your repo's default branch
     }
 
